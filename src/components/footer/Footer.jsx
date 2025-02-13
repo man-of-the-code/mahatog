@@ -13,7 +13,7 @@ const Footer = () =>{
                 </div>
 
                 <p className={styles.desc} >
-                Er. Mahato G is the CEO & Founder of www.mahatog.com . He is passionate about Blogging, Digital Marketing, robotics, space science, software development, engeneering and Spirituality. He is also on YouTube as well on Instagram.
+                Er. Mahato G is the CEO & Founder of www.mahatog.com . He is passionate about robotics, space science, software development, engeneering and spirituality. He is also on YouTube as well on Instagram.
                 <br/>
                 Youtube : Er. Mahato G
                 <br/>
