@@ -1,6 +1,7 @@
 .container {
-  flex: 2;
-  margin-top: 60px;
+  /* border: 1px solid red; */
+  flex: 1;
+  margin-top: 5em;
 }
 
 .subtitle {

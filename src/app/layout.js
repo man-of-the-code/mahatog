@@ -8,8 +8,9 @@ import ThemeProvider from "@/providers/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Blog App",
-  description: "The best blog app!",
+  title: "MahatoG",
+  description:
+    "knowledge knocking, ideas, innovation and information sharing platform by Er. Mahato G",
 };
 
 export default function RootLayout({ children }) {
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
             <div className="container">
               <div className="wrapper">
                 <Navbar />
-                {children}
+                <div className="childrenContainer">{children}</div>
                 <Footer />
               </div>
             </div>

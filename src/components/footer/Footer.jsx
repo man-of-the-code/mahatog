@@ -13,10 +13,10 @@ const Footer = () =>{
                 </div>
 
                 <p className={styles.desc} >
-                Er. Mahato G is the CEO & Founder of www.mahatog.com . He is passionate about robotics, space science, software development, engeneering and spirituality. He is also on YouTube as well on Instagram.
+                Er. Mahato G is the CEO & Founder of www.mahatog.com . He is passionate about Robotics, space science, software development, engeneering and Spirituality. He is also on YouTube as well on Instagram.
                 <br/>
                 Youtube : Er. Mahato G
-                <br/>
+                <br/>   
                 Instagram : Er. Mahato G
                 <br/>
                 Contact :- engineermahatog@gmail.com
@@ -48,7 +48,7 @@ const Footer = () =>{
                     <span className={styles.listTitle} >Social</span>
                     <Link href="/" >Facebook</Link>
                     <Link href="/" >Instagram</Link>
-                    <Link href="/" >Tikto</Link>
+                    <Link href="/" >Tiktok</Link>
                     <Link href="/" >Youtube</Link>
                 </div>
             </div>
