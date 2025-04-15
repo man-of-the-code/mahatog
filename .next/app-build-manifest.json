@@ -1,22 +1,36 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack-00fcee782073e9aa.js",
-      "static/chunks/fd9d1056-5f5f19ad8331c260.js",
-      "static/chunks/596-7b589a18bac4fa07.js",
-      "static/chunks/main-app-bde5f35c663f449f.js",
-      "static/chunks/451-7fe96f7e11ea0106.js",
-      "static/css/86758e3c10f798b3.css",
-      "static/chunks/app/page-047b579d4873b909.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-e001c0af1e09512c.js",
+      "static/chunks/4bd1b696-4395e28837e305c2.js",
+      "static/chunks/684-70e7ec50343c049e.js",
+      "static/chunks/main-app-f74a25d3f970b42d.js",
+      "static/chunks/app/_not-found/page-70f061133d914f90.js"
     ],
     "/layout": [
-      "static/chunks/webpack-00fcee782073e9aa.js",
-      "static/chunks/fd9d1056-5f5f19ad8331c260.js",
-      "static/chunks/596-7b589a18bac4fa07.js",
-      "static/chunks/main-app-bde5f35c663f449f.js",
-      "static/chunks/451-7fe96f7e11ea0106.js",
-      "static/css/d934d26d6913afb6.css",
-      "static/chunks/app/layout-4b66468fc8ae5554.js"
+      "static/chunks/webpack-e001c0af1e09512c.js",
+      "static/chunks/4bd1b696-4395e28837e305c2.js",
+      "static/chunks/684-70e7ec50343c049e.js",
+      "static/chunks/main-app-f74a25d3f970b42d.js",
+      "static/css/6fa7885e4c706597.css",
+      "static/chunks/992-cf44c258f61053ab.js",
+      "static/chunks/app/layout-eaec19b6161c2a99.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-e001c0af1e09512c.js",
+      "static/chunks/4bd1b696-4395e28837e305c2.js",
+      "static/chunks/684-70e7ec50343c049e.js",
+      "static/chunks/main-app-f74a25d3f970b42d.js",
+      "static/css/897c4bc819cb3043.css",
+      "static/chunks/992-cf44c258f61053ab.js",
+      "static/chunks/app/page-847bf89ffff8e78b.js"
+    ],
+    "/icon/route": [
+      "static/chunks/webpack-e001c0af1e09512c.js",
+      "static/chunks/4bd1b696-4395e28837e305c2.js",
+      "static/chunks/684-70e7ec50343c049e.js",
+      "static/chunks/main-app-f74a25d3f970b42d.js",
+      "static/chunks/app/icon/route-7497f4c274e43b70.js"
     ]
   }
 }
