@@ -153,8 +153,22 @@
 }
 
 @media screen and (max-width: 600px) {
-  .featuredImage {
+  /* .featuredImage {
     height: 200px;
+  } */
+  .post {
+    flex-direction: column;
+  }
+  .textContainer {
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .imgContainer {
+    width: calc(100%);
+  }
+  .featuredImage {
+    height: 250px;
   }
 }
 

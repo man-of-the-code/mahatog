@@ -10,5 +10,11 @@
     "files": [
       "static/chunks/341.056900400c7cb71c.js"
     ]
+  },
+  "app\\write\\page.jsx -> react-quill-new": {
+    "id": 792,
+    "files": [
+      "static/chunks/411.bd1fc5bf5536ae12.js"
+    ]
   }
 }
