@@ -1,0 +1,1025 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.homepage_content__m6Qf_ {
+  display: flex;
+  gap: 2em;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/featured/featured.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.featured_container__9bUI6 {
+  margin-top: 5px;
+}
+
+.featured_title__rFWcP {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+}
+
+.featured_post__sWkzO {
+  margin-top: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.featured_imgContainer__phBYF {
+  /* border: 2px solid red; */
+  width: calc(45% - 0.5%);
+  margin-bottom: (0.5%);
+}
+
+.featured_featuredImage__0dIuK {
+  width: 100%;
+  height: 500px;
+}
+
+/* .image {
+  object-fit: cover;
+} */
+
+.featured_textContainer__KZ18s {
+  /* border: 2px solid red; */
+  width: calc(55% - 0.5%);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.featured_postTitle__juEkV {
+  font-size: 40px;
+}
+
+.featured_postDesc__wsFpz {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.featured_button__ufmSY {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .title {
+    font-size: 72px;
+  }
+  .featuredImage {
+    width: 100%;
+    height: 450px;
+  }
+} */
+
+/* @media screen and (max-width: 1024px) {
+  .post {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 64px;
+  }
+  .imgContainer {
+    width: calc(70%);
+  }
+
+  .textContainer {
+    width: calc(100%);
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+  .featuredImage {
+    width: 100%;
+    height: 400px;
+  }
+} */
+
+/* @media screen and (max-width: 640px) {
+  .title {
+    font-size: 36px;
+  }
+  .featuredImage {
+    width: 100%;
+    height: 350px;
+  }
+} */
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1232px) {
+  /* .title {
+    font-size: 25em;
+  } */
+  .featured_featuredImage__0dIuK {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .featured_featuredImage__0dIuK {
+    width: 100%;
+    height: 365px;
+  }
+  .featured_postTitle__juEkV {
+    font-size: 25px;
+  }
+  .featured_postDesc__wsFpz {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+}
+
+@media screen and (max-width: 768px) {
+  .featured_featuredImage__0dIuK {
+    height: 270px;
+  }
+  .featured_postTitle__juEkV {
+    font-size: 20px;
+  }
+  .featured_postDesc__wsFpz {
+    font-size: 14px;
+  }
+  .featured_button__ufmSY {
+    padding: 10px 20px;
+  }
+  .featured_textContainer__KZ18s {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* .featuredImage {
+    height: 200px;
+  } */
+  .featured_post__sWkzO {
+    flex-direction: column;
+  }
+  .featured_textContainer__KZ18s {
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .featured_imgContainer__phBYF {
+    width: calc(100%);
+  }
+  .featured_featuredImage__0dIuK {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .featured_post__sWkzO {
+    flex-direction: column;
+  }
+  .featured_textContainer__KZ18s {
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .featured_imgContainer__phBYF {
+    width: calc(100%);
+  }
+  .featured_featuredImage__0dIuK {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 1128px) {
+  .featured_title__rFWcP {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .featured_title__rFWcP {
+    font-size: 1.25em;
+  }
+}
+@media screen and (max-width: 683px) {
+  .featured_title__rFWcP {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 566px) {
+  .featured_title__rFWcP {
+    font-size: 0.75em;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 456px) {
+  .featured_title__rFWcP {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 360px) {
+  .featured_title__rFWcP {
+    font-size: 11px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 346px) {
+  .featured_title__rFWcP {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 318px) {
+  .featured_title__rFWcP {
+    font-size: 9px;
+    font-weight: 500;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/categoryList/categoryList.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.categoryList_container__s6HpR {
+}
+
+.categoryList_title__8DsfE {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.categoryList_categories__JjFld {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoryList_category__kGfZ1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 15%;
+  height: 80px;
+  justify-content: center;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.categoryList_category__kGfZ1.categoryList_spritual__UcvDd {
+  background-color: #ff671f;
+}
+.categoryList_category__kGfZ1.categoryList_healthAndFitness__nDaPb {
+  background-color: green;
+}
+
+.categoryList_category__kGfZ1.categoryList_scienceAndTechnology__yWYZ6 {
+  background-color: #008080;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+}
+
+.categoryList_category__kGfZ1.categoryList_sports__l6BmU {
+  background-color: #7fb88133;
+  background: linear-gradient(to right, #007bff, #28a745);
+}
+.categoryList_category__kGfZ1.categoryList_loveAndRomance__GUjLJ {
+  background-color: #fc0fc0;
+}
+
+.categoryList_category__kGfZ1.categoryList_entertainment__UinlX {
+  background-color: purple;
+}
+
+.categoryList_category__kGfZ1.categoryList_culture__N8ciR {
+  background-color: red;
+  background: linear-gradient(to right, #ff0000, #ff671f);
+}
+
+.categoryList_category__kGfZ1.categoryList_coding__nDVNj {
+  background-color: black;
+  color: white;
+}
+
+.categoryList_category__kGfZ1.categoryList_travel__gnqt1 {
+  background: linear-gradient(to right, #87ceeb, #ffa500);
+}
+
+.categoryList_category__kGfZ1.categoryList_food__AaDJS {
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #800080,
+    #ffff00,
+    #0000ff,
+    #008000,
+    #ffa500,
+    #ffffff,
+    #ffd700
+  );
+}
+
+.categoryList_category__kGfZ1.categoryList_fashion__GFI8t {
+  background: linear-gradient(to right, #0000ff, #000000);
+}
+
+.categoryList_category__kGfZ1.categoryList_artAndArtist__QdN7a {
+  background: linear-gradient(to right, #ffff00, #0000ff, #ff0000);
+}
+.categoryList_image__DU_oJ {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .categoryList_category__kGfZ1 {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .categoryList_category__kGfZ1 {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .categoryList_category__kGfZ1 {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .categoryList_category__kGfZ1 {
+    width: 100%;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/cardList/cardList.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.cardList_container__tWwXs {
+  flex: 3 1;
+  margin-top: 5em;
+  /* border: 1px solid red; */
+}
+
+.cardList_title__fyoKM {
+  margin-bottom: 2em;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/pagination/pagination.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.pagination_container__MjtB3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination_button__EHYZp {
+  width: 100px;
+  border: none;
+  padding: 16px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination_button__EHYZp:disabled {
+  background-color: rgba(220, 20, 60, 0.473);
+  cursor: not-allowed;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/card/card.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.card_container__xBy9R {
+  margin-bottom: 6em;
+  display: flex;
+  gap: 0.7em;
+  justify-content: center;
+  align-items: center;
+  /* display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 15px; */
+}
+
+.card_imageContainer__0rYcM {
+  flex: 1 1;
+  height: 22em;
+}
+
+.card_image__5mzyB {
+  width: 100%;
+  height: 100%;
+}
+
+.card_textContainer__uD6_C {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.card_detailTitleContainerOne__FidqT {
+  display: none;
+}
+.card_detailTitleContainerTwo__OrdPj {
+}
+
+.card_date__IWhCo {
+  color: gray;
+}
+
+.card_category__QmWQb {
+  color: crimson;
+  font-weight: 500;
+}
+
+.card_desc__hMM2S {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.card_link__yV43X {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .card_category__QmWQb {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1128px) {
+  .card_imageContainer__0rYcM {
+    height: 15em;
+  }
+  .card_container__xBy9R {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card_imageContainer__0rYcM {
+    height: 20em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_imageContainer__0rYcM {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card_container__xBy9R {
+    flex-direction: column;
+  }
+  .card_imageContainer__0rYcM {
+    width: 100%;
+  }
+  .card_image__5mzyB {
+    height: 16em;
+  }
+  .card_detailTitleContainerOne__FidqT {
+    display: block;
+  }
+  .card_detailTitleContainerTwo__OrdPj {
+    display: none;
+  }
+  .card_category__QmWQb {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .card_image__5mzyB {
+    height: 14em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card_image__5mzyB {
+    height: 12em;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Menu/menu.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.menu_container__9Zl3P {
+  /* border: 1px solid red; */
+  flex: 1 1;
+  margin-top: 5em;
+}
+
+.menu_subtitle__7Kija {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menu_title__7uNe1 {
+  font-size: 28px;
+}
+
+.menu_items__jVJkc {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.menu_item__a3hH4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu_imageContainer__i1UDF {
+  flex: 1 1;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.menu_image__pdW2_ {
+  border-radius: 50%;
+  border: 3px solid lightgray;
+  object-fit: cover;
+}
+
+.menu_textContainer__s27VN {
+  flex: 4 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu_category__Y6_Dn {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.menu_category__Y6_Dn.menu_travel__bDpyJ {
+  background-color: #ff7857;
+}
+
+.menu_culture__uBoSq {
+  background-color: #ffb14f;
+}
+.menu_food__nbIJd {
+  background-color: #7fb881;
+}
+.menu_fashion__cyf7G {
+  background-color: #ff7887;
+}
+.menu_coding__8oV8N {
+  background-color: #775aec;
+}
+.menu_style__qhOe1 {
+  background-color: #789cff;
+}
+.menu_postTitle__Ik8A1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--softTextColor);
+}
+
+.menu_detail__hMBgg {
+  font-size: 12px;
+}
+
+.menu_date__3Vp19 {
+  color: gray;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu_container__9Zl3P {
+    display: none;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menuPosts/menuPosts.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.menuPosts_items__zCzFu {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.menuPosts_item__FYpEz {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuPosts_imageContainer__XG76w {
+  flex: 1 1;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.menuPosts_image__IA3eB {
+  border-radius: 50%;
+  border: 3px solid lightgray;
+  object-fit: cover;
+}
+
+.menuPosts_textContainer__au0GC {
+  flex: 4 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menuPosts_category__Aonfr {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.menuPosts_category__Aonfr.menuPosts_travel__mQpLL {
+  background-color: #ff7857;
+}
+
+.menuPosts_culture__pFTSR {
+  background-color: #ffb14f;
+}
+
+.menuPosts_food__s3FgX {
+  background-color: #7fb881;
+}
+
+.menuPosts_fashion__CLcq8 {
+  background-color: #ff7887;
+}
+
+.menuPosts_coding__gPTWe {
+  background-color: #775aec;
+}
+
+.menuPosts_style__2TsaX {
+  background-color: #789cff;
+}
+
+.menuPosts_postTitle___KHVw {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--softTextColor);
+}
+
+.menuPosts_detail__kP_z0 {
+  font-size: 12px;
+}
+
+.menuPosts_date__ioevs {
+  color: gray;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menuCategories/menuCategories.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/* .categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoryItem {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.category.spritual {
+  background-color: #ff671f;
+}
+
+.categoryItem.style {
+  background-color: #57c4ff31;
+}
+
+.categoryItem.fashion {
+  background-color: #da85c731;
+}
+
+.categoryItem.food {
+  background-color: #7fb88133;
+}
+
+.categoryItem.travel {
+  background-color: #ff795736;
+}
+
+.categoryItem.culture {
+  background-color: #ffb04f45;
+}
+
+.categoryItem.coding {
+  background-color: #5e4fff31;
+} */
+
+.menuCategories_container__npS_F {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.menuCategories_title__muaE1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.menuCategories_categories__XeWdR {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menuCategories_category__OdfMP {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.menuCategories_category__OdfMP.menuCategories_spritual__VukBr {
+  background-color: #ff671f;
+}
+.menuCategories_category__OdfMP.menuCategories_healthAndFitness__5xgCO {
+  background-color: green;
+}
+
+.menuCategories_category__OdfMP.menuCategories_scienceAndTechnology__501BL {
+  background-color: #008080;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+}
+
+.menuCategories_category__OdfMP.menuCategories_sports__IPFD9 {
+  background-color: #7fb88133;
+  background: linear-gradient(to right, #007bff, #28a745);
+}
+.menuCategories_category__OdfMP.menuCategories_loveAndRomance__0_lgT {
+  background-color: #fc0fc0;
+}
+
+.menuCategories_category__OdfMP.menuCategories_entertainment__UtmvU {
+  background-color: purple;
+}
+
+.menuCategories_category__OdfMP.menuCategories_culture__QFA4c {
+  background-color: red;
+  background: linear-gradient(to right, #ff0000, #ff671f);
+}
+
+.menuCategories_category__OdfMP.menuCategories_coding__9Rxni {
+  background-color: black;
+  color: white;
+}
+
+.menuCategories_category__OdfMP.menuCategories_travel__E4B5s {
+  background: linear-gradient(to right, #87ceeb, #ffa500);
+}
+
+.menuCategories_category__OdfMP.menuCategories_food__ufPAu {
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #800080,
+    #ffff00,
+    #0000ff,
+    #008000,
+    #ffa500,
+    #ffffff,
+    #ffd700
+  );
+}
+
+.menuCategories_category__OdfMP.menuCategories_fashion__iNpn3 {
+  background: linear-gradient(to right, #0000ff, #000000);
+}
+
+.menuCategories_category__OdfMP.menuCategories_artAndArtist__wXIGW {
+  background: linear-gradient(to right, #ffff00, #0000ff, #ff0000);
+}
+.menuCategories_image__19B4X {
+  border-radius: 50%;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .category {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .category {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .category {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .category {
+    width: 100%;
+  }
+} */
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/greetings/greetings.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.greetings_container__AR_Hh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff671f;
+  font: bold;
+  font-weight: 800;
+  padding: 0.5em;
+}
+.greetings_image__IY5A_ {
+  border-radius: 50%;
+  box-shadow: #ff671f 0px 2px 4px 0px, #ff671f 0px 2px 16px 0px;
+}
+.greetings_container__AR_Hh div {
+  display: flex;
+}
+.greetings_container__AR_Hh div p {
+  padding-bottom: 2em;
+  margin-top: 1em;
+}
+@media screen and (max-width: 485px) {
+  .greetings_container__AR_Hh {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 440px) {
+  .greetings_container__AR_Hh {
+    font-size: x-small;
+  }
+  .greetings_container__AR_Hh div p {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .greetings_container__AR_Hh {
+    font-size: xx-small;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/jobCard/jobCard.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.jobCard_container__W3bTa {
+  margin-bottom: 6em;
+  display: flex;
+  gap: 0.7em;
+  justify-content: center;
+  align-items: center;
+  /* display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 15px; */
+}
+
+.jobCard_imageContainer__aqW0v {
+  flex: 1 1;
+  height: 22em;
+}
+
+.jobCard_image__FApUf {
+  width: 100%;
+  height: 100%;
+}
+
+.jobCard_textContainer__d5_k7 {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.jobCard_detailTitleContainerOne__729SL {
+  display: none;
+}
+.jobCard_detailTitleContainerTwo__2Y0iN {
+}
+
+.jobCard_date__AngF5 {
+  color: gray;
+}
+
+.jobCard_category__QD7D8 {
+  color: crimson;
+  font-weight: 500;
+}
+
+.jobCard_desc__5IBbL {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.jobCard_link__Jk4E5 {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .jobCard_category__QD7D8 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1128px) {
+  .jobCard_imageContainer__aqW0v {
+    height: 15em;
+  }
+  .jobCard_container__W3bTa {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jobCard_imageContainer__aqW0v {
+    height: 20em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jobCard_imageContainer__aqW0v {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .jobCard_container__W3bTa {
+    flex-direction: column;
+  }
+  .jobCard_imageContainer__aqW0v {
+    width: 100%;
+  }
+  .jobCard_image__FApUf {
+    height: 16em;
+  }
+  .jobCard_detailTitleContainerOne__729SL {
+    display: block;
+  }
+  .jobCard_detailTitleContainerTwo__2Y0iN {
+    display: none;
+  }
+  .jobCard_category__QD7D8 {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .jobCard_image__FApUf {
+    height: 14em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .jobCard_image__FApUf {
+    height: 12em;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/jobCardList/jobCardList.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.jobCardList_container__vfI41 {
+  flex: 3 1;
+  margin-top: 5em;
+  /* border: 1px solid red; */
+}
+
+.jobCardList_title__CNHcD {
+  margin-bottom: 2em;
+}
+

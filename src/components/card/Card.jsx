@@ -3,8 +3,10 @@ import styles from "./card.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const Card = ({ postImage, postDate, postCategory, postTitle, postDesc }) => {
+const Card = ({postImage,postDate,postCategory,postTitle,postDesc}) => {
   return (
+    
+    // below container is a container of post
     <div className={styles.container}>
       <div className={styles.detailTitleContainerOne}>
         <div className={styles.detail}>

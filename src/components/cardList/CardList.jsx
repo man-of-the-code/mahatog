@@ -5,12 +5,19 @@ import Image from "next/image";
 import Card from "../card/Card";
 
 const CardList = () => {
+  
   return (
+    
+
+
+
+    // below container is a container of different posts list
     <div className={styles.container}>
-      <h1 className={styles.title}>Recent Posts</h1>
+      {/* <h1 className={styles.title}>Recent Posts</h1> */}
+      <h1 className={styles.title}>Recent Jobs</h1>
       <div className={styles.posts}>
         {/* Spritual post */}
-        <Card postImage={"/mindBodySpirit.webp"} postDate={"28-01-2025"} postCategory={"Spritual"} postTitle={"The Mind, Body, and Spirit Connection: Achieving Holistic Well-being"} postDesc={"In today’s fast-paced world, finding balance between mind, body, and spirit is essential for a fulfilling life. The interconnectedness of these three elements plays a crucial role in overall well-being, influencing physical health, emotional stability, and spiritual fulfillment. By nurturing each aspect, we can lead a harmonious and enriched life."} />
+        <Card postImage={"/mindBodySpirit.webp"}  postDate={"28-01-2025"} postCategory={"Spritual"} postTitle={"The Mind, Body, and Spirit Connection: Achieving Holistic Well-being"} postDesc={"In today’s fast-paced world, finding balance between mind, body, and spirit is essential for a fulfilling life. The interconnectedness of these three elements plays a crucial role in overall well-being, influencing physical health, emotional stability, and spiritual fulfillment. By nurturing each aspect, we can lead a harmonious and enriched life."} />
 
         {/* Entertainment post */}
         <Card postImage={"/shahrukhKhanKing.jpg"} postDate={"31-01-2025"} postCategory={"Entertainment"} postTitle={"Shah Rukh Khan Announces 'King': A Potential Blockbuster from Sujoy Ghosh & Siddharth Anand"} postDesc={"Shah Rukh Khan has revealed that his next movie will be titled King. The movie is being directed by Kahaani's Sujoy Ghosh and produced by Pathaan's Siddharth Anand. The movie has a chance of being a hit at the level of Srk's record-breaking 2023 movies Pathaan and Jawan."} />

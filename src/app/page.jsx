@@ -5,6 +5,8 @@ import CategoryList from "@/components/categoryList/CategoryList";
 import CardList from "@/components/cardList/CardList";
 import Menu from "@/components/Menu/Menu";
 import Greetings from "@/components/greetings/Greetings";
+import JobCardList from "@/components/jobCardList/jobCardList";
+
 
 export default function Home() {
   return (
@@ -13,7 +15,8 @@ export default function Home() {
       <Featured />
       <CategoryList />
       <div className={styles.content}>
-        <CardList />
+        <JobCardList/>
+        {/* <CardList /> */}
         <Menu />
       </div>
     </div>
