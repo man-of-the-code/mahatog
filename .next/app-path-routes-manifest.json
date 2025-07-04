@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/icon/route": "/icon",
+  "/[slug]/page": "/[slug]",
+  "/blog/page": "/blog",
+  "/login/page": "/login",
+  "/page": "/",
+  "/write/page": "/write"
+}

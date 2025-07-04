@@ -12,13 +12,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Greetings />
-      <Featured />
-      <CategoryList />
-      <div className={styles.content}>
-        <JobCardList/>
+      <JobCardList/>
+      {/* <Featured /> */}
+      {/* <CategoryList /> */}
+      {/* <div className={styles.content}> */}
+        
         {/* <CardList /> */}
-        <Menu />
-      </div>
+        {/* <Menu /> */}
+      {/* </div> */}
     </div>
   );
 }
