@@ -1,5 +1,5 @@
 import React from 'react'
-import JobCard from '../jobCard/jobCard'
+import JobCard from '../jobCard/JobCard'
 import styles from './jobCardList.module.css'
 // import Pagination from '../pagination/Pagination'
 
