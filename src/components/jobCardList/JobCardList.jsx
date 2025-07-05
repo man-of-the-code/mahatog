@@ -2,6 +2,7 @@ import React from 'react'
 import JobCard from '../jobCard/JobCard'
 import styles from './jobCardList.module.css'
 // import Pagination from '../pagination/Pagination'
+// import Pagination from '../pagination/Pagination'
 
 function JobCardList() {
     let joblocation = [
