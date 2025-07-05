@@ -3,7 +3,7 @@
   "/icon/route": "/icon",
   "/[slug]/page": "/[slug]",
   "/blog/page": "/blog",
-  "/login/page": "/login",
   "/page": "/",
+  "/login/page": "/login",
   "/write/page": "/write"
 }
