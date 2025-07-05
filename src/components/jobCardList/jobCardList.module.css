@@ -1,9 +1,9 @@
 .container {
   flex: 3;
-  margin-top: 5em;
+  margin-top: 1em;
   /* border: 1px solid red; */
 }
 
 .title {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }

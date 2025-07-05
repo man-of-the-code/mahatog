@@ -38,10 +38,11 @@ function JobCardList() {
   return (
     // below container is a container of different jobs list
     <div className={styles.container}>
-      <h1 className={styles.title}>Recent Jobs</h1>
       <p><strong>Would you like to list your company's job openings?</strong></p>
       <p>Contact now : +91 9380879254</p>
       <br/>
+      <h1 className={styles.title}>Recent Jobs</h1>
+      
       <div className={styles.posts}>
         {/* Spritual post */}
         
